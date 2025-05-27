@@ -1,0 +1,38 @@
+{
+  "name": "Sequence obfuscation - Part 3",
+  "description": "Paste the part into a cloning vector, adding restriction sites",
+  "operations": [
+    {
+      "operation_command": "OPEN",
+      "operation_arguments": {
+        "file_name": "synpuc19v"
+      }
+    },
+    {
+      "operation_command": "INSERT",
+      "operation_arguments": {
+        "insert_sequence": "gaattc",
+        "insert_position": 233
+      }
+    },
+    {
+      "operation_command": "PASTE",
+      "operation_arguments": {
+        "paste_position": 239
+      }
+    },
+    {
+      "operation_command": "INSERT",
+      "operation_arguments": {
+        "insert_sequence": "gaattc",
+        "insert_position": 254
+      }
+    },
+    {
+      "operation_command": "EXPORT",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

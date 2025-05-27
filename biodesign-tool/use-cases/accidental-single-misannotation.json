@@ -1,0 +1,27 @@
+{
+  "name": "Accidental single misannotation",
+  "description": "A wrongly inserted annotation",
+  "operations": [
+    {
+      "operation_command": "CREATE",
+      "operation_arguments": {
+        "file_name": "accidental_single_misannotation_use_case",
+        "sequence": "gtacgtacgtaggtacgtacgtagctagctagctagctagcgctagctagctagctagctagcctagc"
+      }
+    },
+    {
+      "operation_command": "ADD_ANNOTATION",
+      "operation_arguments": {
+        "annotation_name": "new annotation",
+        "annotation_start_index": 2,
+        "annotation_end_index": 20
+      }
+    },
+    {
+      "operation_command": "EXPORT",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

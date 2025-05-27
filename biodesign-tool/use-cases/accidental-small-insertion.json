@@ -1,0 +1,26 @@
+{
+  "name": "Accidental small insertion",
+  "description": "A small insertion in the sequence that was not intended",
+  "operations": [
+    {
+      "operation_command": "CREATE",
+      "operation_arguments": {
+        "file_name": "accidental_small_insertion_use_case",
+        "sequence": "gtacgtacgtagctagc"
+      }
+    },
+    {
+      "operation_command": "INSERT",
+      "operation_arguments": {
+        "insert_sequence": "aaaaa",
+        "insert_position": 0
+      }
+    },
+    {
+      "operation_command": "EXPORT",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Accidental small deletion",
+  "description": "A small deletion in the sequence that was not intended",
+  "operations": [
+    {
+      "operation_command": "CREATE",
+      "operation_arguments": {
+        "file_name": "accidental_small_deletion_use_case",
+        "sequence": "gtacgtacgtagctagc"
+      }
+    },
+    {
+      "operation_command": "DELETE",
+      "operation_arguments": {
+        "delete_start_position": 0,
+        "delete_end_position": 1
+      }
+    },
+    {
+      "operation_command": "EXPORT",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

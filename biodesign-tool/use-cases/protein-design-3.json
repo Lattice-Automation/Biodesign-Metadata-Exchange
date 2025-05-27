@@ -1,0 +1,27 @@
+{
+  "name": "Protein design - Part 3",
+  "description": "Design the protein.",
+  "operations": [
+    {
+      "operation_command": "OPEN_PROTEIN",
+      "operation_arguments": {
+        "file_name": "2wur_backbone"
+      }
+    },
+    {
+      "operation_command": "DESIGN_PROTEIN",
+      "operation_arguments": {
+        "model": "ProteinMPNN",
+        "num_seq_per_target": 5,
+        "sampling_temp": 0.1,
+        "interface_cutoff": 10.0
+      }
+    },
+    {
+      "operation_command": "EXPORT_PROTEIN",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

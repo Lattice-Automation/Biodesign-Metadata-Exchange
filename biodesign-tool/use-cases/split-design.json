@@ -1,0 +1,25 @@
+{
+  "name": "Split design",
+  "description": "Breaking up a design into smaller parts",
+  "operations": [
+    {
+      "operation_command": "CREATE",
+      "operation_arguments": {
+        "file_name": "split_design",
+        "sequence": "aaaaaccccctttttggggg"
+      }
+    },
+    {
+      "operation_command": "SPLIT",
+      "operation_arguments": {
+        "split_indices": [5, 10, 15]
+      }
+    },
+    {
+      "operation_command": "EXPORT",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

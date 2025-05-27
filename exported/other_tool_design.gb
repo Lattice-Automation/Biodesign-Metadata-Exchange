@@ -1,0 +1,14 @@
+LOCUS       other_tool_design         50 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    3..20
+                     /label="promoter"
+ORIGIN
+        1 aaaaaaaaaa aaaaaagtcg cggcgcgcga gagagagagc gcgcgcgaag
+//
