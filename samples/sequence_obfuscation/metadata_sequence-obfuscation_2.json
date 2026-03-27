@@ -1,0 +1,34 @@
+{
+  "id": "dd42bf8c-53eb-454b-bfd9-1995c008d874",
+  "parentMetadataId": "19c075a4-c34e-4c9e-9dea-ab0139f5f637",
+  "designName": "sequence-obfuscation_2",
+  "designChecksum": "d28aa1520d6f21a9b25d2f670085ff576fdb9b5191634b5517c264c1404a0fa9",
+  "author": "John Smith",
+  "description": "",
+  "lastUpdated": "01/23/2026, 12:49:53",
+  "changelog": [
+    {
+      "operationCode": "CREATE",
+      "operationDetails": {
+        "file_name": "sequence-obfuscation_2",
+        "source": "tool_split_operation"
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXPORT",
+      "operationDetails": {
+        "include_metadata": true
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    }
+  ]
+}

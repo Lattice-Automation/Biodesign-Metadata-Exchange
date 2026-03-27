@@ -1,0 +1,21 @@
+[
+  {
+    "id": "basic_example",
+    "name": "Basic Example",
+    "description": "Simple design with metadata",
+    "zipFile": "basic_example.zip"
+  },
+  {
+    "id": "sequence_obfuscation",
+    "name": "Sequence Obfuscation",
+    "description": "Copies subsequence from one design to another",
+    "zipFile": "sequence_obfuscation.zip"
+  },
+  {
+    "id": "protein_design",
+    "name": "Protein Design",
+    "description": "Extract backbone, redesign interface, design protein, and calculate metrics",
+    "zipFile": "protein_design.zip"
+  }
+]
+

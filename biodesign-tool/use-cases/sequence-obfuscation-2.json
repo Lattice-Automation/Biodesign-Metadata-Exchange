@@ -1,0 +1,33 @@
+{
+  "name": "Sequence obfuscation - Part 2",
+  "description": "Optimize one of the parts to remove restriction sites and copy the sequence",
+  "operations": [
+    {
+      "operation_command": "OPEN",
+      "operation_arguments": {
+        "file_name": "sequence-obfuscation_1"
+      }
+    },
+    {
+      "operation_command": "CODON_OPTIMIZATION",
+      "operation_arguments": {
+        "organism": "human",
+        "start_index": 0,
+        "end_index": 15
+      }
+    },
+    {
+      "operation_command": "COPY",
+      "operation_arguments": {
+        "copy_start_index": 0,
+        "copy_end_index": 15
+      }
+    },
+    {
+      "operation_command": "EXPORT",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

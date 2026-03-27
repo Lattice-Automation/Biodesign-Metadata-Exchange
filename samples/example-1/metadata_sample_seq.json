@@ -1,0 +1,44 @@
+{
+  "id": "8ae25a3b-df5c-4060-ad7d-30f7afb696d1",
+  "parentMetadataId": null,
+  "designName": "sample_seq",
+  "designChecksum": "ef7e7e19806028b9de1b2e96f571efc1f6d821c3ee9e2681299ebf3dd76906c8",
+  "author": "Sample script",
+  "description": "",
+  "lastUpdated": "02/27/2026, 14:24:17",
+  "changelog": [
+    {
+      "operationCode": "CREATE",
+      "operationDetails": {
+        "sequence_length": 161
+      },
+      "change": "",
+      "timestamp": "02/27/2026, 14:24:17",
+      "tool": "create_metadata_from_fasta",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "APPEND",
+      "operationDetails": {
+        "insert_sequence": "atcatccgtgcaagaccaagaaccgccaatagac"
+      },
+      "change": "@@ -35,10 +35,10 @@\n    1\n-95\n+61\n  bp \n@@ -454,55 +454,8 @@\n aa c\n-atcatccgt gcaagaccaa%0A      181 gaaccgccaa tagac\n %0A//%0A\n",
+      "timestamp": "02/27/2026, 14:24:17",
+      "tool": "create_metadata_from_fasta",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "APPEND",
+      "operationDetails": {
+        "insert_sequence": "aacatatgtaacatatttaggatatacctcgaaac"
+      },
+      "change": "@@ -34,11 +34,11 @@\n     \n-230\n+195\n  bp \n@@ -501,46 +501,8 @@\n agac\n-aacat atgtaacata tttaggatat acctcgaaac\n %0A//%0A\n",
+      "timestamp": "02/27/2026, 14:24:17",
+      "tool": "create_metadata_from_fasta",
+      "comments": [],
+      "status": ""
+    }
+  ]
+}

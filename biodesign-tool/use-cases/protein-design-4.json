@@ -1,0 +1,33 @@
+{
+  "name": "Protein design - Part 4",
+  "description": "Calculate protein metrics and translate protein to DNA.",
+  "operations": [
+    {
+      "operation_command": "OPEN_PROTEIN",
+      "operation_arguments": {
+        "file_name": "2wur_backbone_design_0"
+      }
+    },
+    {
+      "operation_command": "CALCULATE_PROTEIN_METRICS",
+      "operation_arguments": {
+        "models": "Rosetta, ESM3",
+        "energy_minimization": "True",
+        "interface_scoring": "True",
+        "predict_stability": "True"
+      }
+    },
+    {
+      "operation_command": "TRANSLATE_PROTEIN",
+      "operation_arguments": {
+        "organism": "E. coli"
+      }
+    },
+    {
+      "operation_command": "EXPORT_PROTEIN",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

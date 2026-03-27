@@ -1,0 +1,31 @@
+LOCUS       SCU49845_extraction_2    230 bp    DNA     linear   UNA 03-OCT-2024
+DEFINITION  Saccharomyces cerevisiae TCP1-beta gene, partial cds, and Axl2p
+            (AXL2) and Rev7p (REV7) genes, complete cds.
+ACCESSION   U49845
+VERSION     U49845.1
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae (baker's yeast)
+  ORGANISM  Saccharomyces cerevisiae
+            Eukaryota; Fungi; Ascomycota; Saccharomycotina; Saccharomycetes;
+            Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+FEATURES             Location/Qualifiers
+     source          1..>232
+                     /organism="Saccharomyces cerevisiae"
+                     /db_xref="taxon:4932"
+                     /chromosome="IX"
+                     /map="9"
+                     /label="source Saccharomyces cerevisiae"
+     CDS             <1..206
+                     /codon_start=3
+                     /product="TCP1-beta"
+                     /protein_id="AAA98665.1"
+                     /db_xref="GI:1293614"
+                     /translation="SSIYNGISTSGLDLNNGTIADMRQLGIVESYKLKRAVVSSASEAA
+                     EVLLRVDNIIRARPRTANRQHM"
+                     /label="TCP1-beta CDS"
+ORIGIN
+        1 gatcctccat atacaacggt atctccacct caggtttaga tctcaacaac ggaaccattg
+       61 ccgacatgag acagttaggt atcgtcgaga gttacaagct aaaacgagca gtagtcagct
+      121 ctgcatctga agccgctgaa gttctactaa gggtggataa catcatccgt gcaagaccaa
+      181 gaaccgccaa tagacaacat atgtaacata tttaggatat acctcgaaac
+//

@@ -1,0 +1,48 @@
+{
+    "id": "ab9d36fd-d372-4fc3-ba0f-ca01f8bd7c77",
+    "parentMetadataId": "",
+    "designName": "sample_seq",
+    "designChecksum": "ef7e7e19806028b9de1b2e96f571efc1f6d821c3ee9e2681299ebf3dd76906c8",
+    "author": "guz",
+    "description": "",
+    "lastUpdated": "03/26/2025, 23:09:37",
+    "changelog": [
+        {
+            "operationCode": "IMPORT",
+            "operationDetails": {
+                "source": "from_local_file"
+            },
+            "change": "",
+            "timestamp": "11/07/2024, 15:03:24",
+            "tool": "BioDesign tool"
+        },
+        {
+            "operationCode": "APPEND",
+            "operationDetails": {
+                "insert_sequence": "acgtacgtac"
+            },
+            "change": "@@ -31,17 +31,17 @@\n n_2    2\n-4\n+3\n 0 bp    \n@@ -1463,19 +1463,8 @@\n aaaa\n- acgtacgtac\n %0A//%0A\n",
+            "timestamp": "03/26/2025, 23:08:29",
+            "tool": "BioDesign tool"
+        },
+        {
+            "operationCode": "DELETE",
+            "operationDetails": {
+                "delete_start_position": 229,
+                "delete_end_position": 239
+            },
+            "change": "@@ -31,17 +31,17 @@\n n_2    2\n-3\n+4\n 0 bp    \n@@ -1458,13 +1458,24 @@\n cctcgaaa\n+a acgtacgta\n c%0A//%0A\n",
+            "timestamp": "03/26/2025, 23:09:01",
+            "tool": "BioDesign tool"
+        },
+        {
+            "operationCode": "EXPORT",
+            "operationDetails": {
+                "include_metadata": true
+            },
+            "change": "",
+            "timestamp": "03/26/2025, 23:09:37",
+            "tool": "BioDesign tool"
+        }
+    ]
+}

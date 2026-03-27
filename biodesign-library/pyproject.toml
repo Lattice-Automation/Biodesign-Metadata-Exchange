@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biodesign-metadata"
+version = "0.1.0"
+description = "Biodesign Metadata Exchange (BMDE) - Python library for evaluating and interpreting biodesign metadata"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "NTI | bio" },
+    { name = "Lattice Automation" }
+]
+keywords = ["biodesign", "metadata", "biosecurity", "synthetic biology"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "biopython>=1.80",
+    "cryptography>=42.0",
+    "diff-match-patch>=20200713",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["python"]
+include = ["biodesign_metadata*"]
+
+[tool.setuptools.package-data]
+biodesign_metadata = ["config/*.json"]

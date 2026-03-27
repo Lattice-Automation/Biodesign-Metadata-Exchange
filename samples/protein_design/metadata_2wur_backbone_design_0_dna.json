@@ -1,0 +1,34 @@
+{
+  "id": "5ce3e40f-3301-4770-a85b-465a96a10933",
+  "parentMetadataId": "c9e024f7-403c-4a68-97ba-ed531b5d4eea",
+  "designName": "2wur_backbone_design_0_dna",
+  "designChecksum": "3f8f54c3d51dbc27b4a6d43d54e918a03f944831416aebd96236d90f6000c33c",
+  "author": "John Smith",
+  "description": "",
+  "lastUpdated": "01/16/2026, 01:45:55",
+  "changelog": [
+    {
+      "operationCode": "CREATE",
+      "operationDetails": {
+        "file_name": "2wur_backbone_design_0_dna",
+        "source": "tool_translate_protein_operation"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXPORT",
+      "operationDetails": {
+        "include_metadata": true
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    }
+  ]
+}

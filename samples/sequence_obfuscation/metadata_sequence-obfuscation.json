@@ -1,0 +1,87 @@
+{
+  "id": "19c075a4-c34e-4c9e-9dea-ab0139f5f637",
+  "parentMetadataId": "",
+  "designName": "sequence-obfuscation",
+  "designChecksum": "1fecdf1674f0aab310f2f4aa42c4a0b380d4578afab971a69f7b1eb186e59c3d",
+  "author": "John Smith",
+  "description": "",
+  "lastUpdated": "01/23/2026, 12:49:53",
+  "changelog": [
+    {
+      "operationCode": "CREATE",
+      "operationDetails": {
+        "file_name": "sequence-obfuscation",
+        "source": "command_line"
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "ADD_ANNOTATION",
+      "operationDetails": {
+        "annotation_name": "Part 0",
+        "annotation_start_index": 0,
+        "annotation_end_index": 15
+      },
+      "change": "@@ -237,72 +237,8 @@\n ers%0A\n-     misc_feature    1..15%0A                     /label=%22Part 0%22%0A\n ORIG\n",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "ADD_ANNOTATION",
+      "operationDetails": {
+        "annotation_name": "Part 1",
+        "annotation_start_index": 15,
+        "annotation_end_index": 30
+      },
+      "change": "@@ -301,73 +301,8 @@\n  0%22%0A\n-     misc_feature    16..30%0A                     /label=%22Part 1%22%0A\n ORIG\n",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "ADD_ANNOTATION",
+      "operationDetails": {
+        "annotation_name": "Part 2",
+        "annotation_start_index": 30,
+        "annotation_end_index": 45
+      },
+      "change": "@@ -366,73 +366,8 @@\n  1%22%0A\n-     misc_feature    31..45%0A                     /label=%22Part 2%22%0A\n ORIG\n",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "SPLIT",
+      "operationDetails": {
+        "split_indices": [
+          15,
+          30
+        ]
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXPORT",
+      "operationDetails": {
+        "include_metadata": true
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    }
+  ]
+}

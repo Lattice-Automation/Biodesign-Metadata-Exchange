@@ -1,0 +1,81 @@
+{
+  "name": "provider-ui",
+  "version": "0.1.0",
+  "private": true,
+  "bin": "server.js",
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.2",
+    "@mui/lab": "^6.0.0-beta.10",
+    "@mui/material": "^6.1.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/jszip": "^3.4.0",
+    "@types/node": "^16.18.112",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "axios": "^1.13.2",
+    "diff-match-patch": "^1.0.5",
+    "jszip": "^3.10.1",
+    "react": "^18.3.1",
+    "react-diff-viewer-continued": "^3.4.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "reactflow": "^11.10.1",
+    "seqparse": "^0.2.1",
+    "seqviz": "^3.10.7",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:executable": "npm run build && npm run package:executable",
+    "package:executable": "pkg . --targets node18-win-x64,node18-macos-x64,node18-linux-x64 --output-path dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "@types/diff-match-patch": "^1.0.36",
+    "express": "^4.18.2",
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "scripts": [
+      "server.js"
+    ],
+    "assets": [
+      "build/**/*"
+    ],
+    "outputPath": "dist",
+    "targets": [
+      "node18-win-x64",
+      "node18-macos-x64",
+      "node18-linux-x64"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Sequence obfuscation - Part 1",
+  "description": "Breaking up a design into smaller parts",
+  "operations": [
+    {
+      "operation_command": "CREATE",
+      "operation_arguments": {
+        "file_name": "sequence-obfuscation",
+        "sequence": "atgccggatccgttcaacgaattcggatagtgaagcttaatttaa"
+      }
+    },
+    {
+      "operation_command": "ADD_ANNOTATION",
+      "operation_arguments": {
+        "annotation_name": "Part 0",
+        "annotation_start_index": 0,
+        "annotation_end_index": 15
+      }
+    },
+    {
+      "operation_command": "ADD_ANNOTATION",
+      "operation_arguments": {
+        "annotation_name": "Part 1",
+        "annotation_start_index": 15,
+        "annotation_end_index": 30
+      }
+    },
+    {
+      "operation_command": "ADD_ANNOTATION",
+      "operation_arguments": {
+        "annotation_name": "Part 2",
+        "annotation_start_index": 30,
+        "annotation_end_index": 45
+      }
+    },
+    {
+      "operation_command": "SPLIT",
+      "operation_arguments": {
+        "split_indices": [15, 30]
+      }
+    },
+    {
+      "operation_command": "EXPORT",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

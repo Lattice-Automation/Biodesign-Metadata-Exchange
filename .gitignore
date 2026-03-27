@@ -1,0 +1,10 @@
+venv
+.idea
+__pycache__/
+.DS_Store
+.vscode/*
+provider-uploads/*
+notes.md
+node_modules
+*.egg-info
+output/*

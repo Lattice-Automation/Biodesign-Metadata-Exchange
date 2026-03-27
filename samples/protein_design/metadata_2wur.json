@@ -1,0 +1,44 @@
+{
+  "id": "27f5647f-34fc-48b3-8697-6567fbf33fc1",
+  "parentMetadataId": "",
+  "designName": "2wur",
+  "designChecksum": "a868127fb5738318ef3292f384ce8d053170559c889a5d69aa04f6d2c713d0f6",
+  "author": "John Smith",
+  "description": "",
+  "lastUpdated": "01/16/2026, 01:45:55",
+  "changelog": [
+    {
+      "operationCode": "OPEN_PROTEIN",
+      "operationDetails": {
+        "file_name": "2wur"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXTRACT_BACKBONE",
+      "operationDetails": {
+        "output_file_name": "2wur_backbone"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXPORT_PROTEIN",
+      "operationDetails": {
+        "include_metadata": true
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    }
+  ]
+}

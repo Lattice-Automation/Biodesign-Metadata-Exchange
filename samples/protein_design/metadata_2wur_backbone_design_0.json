@@ -1,0 +1,70 @@
+{
+  "id": "c9e024f7-403c-4a68-97ba-ed531b5d4eea",
+  "parentMetadataId": "617e8af5-2362-4369-8634-ba7b39ceac38",
+  "designName": "2wur_backbone_design_0",
+  "designChecksum": "9e5d2fe5db319059abed8cb3df01ffece9b00630f02bc822a8594b3ab588690b",
+  "author": "John Smith",
+  "description": "",
+  "lastUpdated": "01/16/2026, 01:45:55",
+  "changelog": [
+    {
+      "operationCode": "CREATE_PROTEIN",
+      "operationDetails": {
+        "file_name": "2wur_backbone_design_0",
+        "source": "tool_design_protein_operation"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "OPEN_PROTEIN",
+      "operationDetails": {
+        "file_name": "2wur_backbone_design_0"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "CALCULATE_PROTEIN_METRICS",
+      "operationDetails": {
+        "energy_minimization_score": 0.9599276865682407,
+        "interface_scoring_score": 0.8744457238357467,
+        "predict_stability_score": 0.9470906117212915,
+        "models": "Rosetta, ESM3"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "TRANSLATE_PROTEIN",
+      "operationDetails": {
+        "organism": "E. coli"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXPORT_PROTEIN",
+      "operationDetails": {
+        "include_metadata": true
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    }
+  ]
+}

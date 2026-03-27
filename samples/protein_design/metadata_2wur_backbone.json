@@ -1,0 +1,84 @@
+{
+  "id": "617e8af5-2362-4369-8634-ba7b39ceac38",
+  "parentMetadataId": "27f5647f-34fc-48b3-8697-6567fbf33fc1",
+  "designName": "2wur_backbone",
+  "designChecksum": "1ced3b5424dbeccca85d18c112d4c8260f069e4c6c4f27fd7f010de24c009bc4",
+  "author": "John Smith",
+  "description": "",
+  "lastUpdated": "01/16/2026, 01:45:55",
+  "changelog": [
+    {
+      "operationCode": "CREATE_PROTEIN",
+      "operationDetails": {
+        "file_name": "2wur_backbone",
+        "source": "tool_extract_backbone_operation"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "OPEN_PROTEIN",
+      "operationDetails": {
+        "file_name": "2wur_backbone"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "REDESIGN_INTERFACE",
+      "operationDetails": {
+        "model": "RFdiffusion",
+        "mode": "inpaint",
+        "num_designs": 5,
+        "temperature": 0.1
+      },
+      "change": "@@ -10,19 +10,19 @@\n  1  N   \n-I  \n+LYS\n  A   3  \n@@ -87,27 +87,27 @@\n      2  CA  \n-A  \n+LYS\n  A   3      \n@@ -168,27 +168,27 @@\n      3  C   \n-C  \n+LYS\n  A   3      \n@@ -249,27 +249,27 @@\n      4  O   \n-R  \n+LYS\n  A   3      \n@@ -1630,19 +1630,19 @@\n 81  N   \n-F  \n+PHE\n  A   8  \n@@ -1715,11 +1715,11 @@\n CA  \n-I  \n+PHE\n  A  \n@@ -1792,19 +1792,19 @@\n 83  C   \n-Y  \n+PHE\n  A   8  \n@@ -1873,19 +1873,19 @@\n 84  O   \n-Y  \n+PHE\n  A   8  \n@@ -5599,19 +5599,19 @@\n 96  N   \n-W  \n+GLY\n  A  20  \n@@ -5681,18 +5681,18 @@\n 7  CA  G\n-  \n+LY\n  A  20  \n@@ -5765,11 +5765,11 @@\n C   \n-D  \n+GLY\n  A  \n@@ -5842,19 +5842,19 @@\n 99  O   \n-R  \n+GLY\n  A  20  \n@@ -5923,19 +5923,19 @@\n 03  N   \n-N  \n+ASP\n  A  21  \n@@ -6005,18 +6005,18 @@\n 4  CA  A\n-  \n+SP\n  A  21  \n@@ -6085,19 +6085,19 @@\n 05  C   \n-Q  \n+ASP\n  A  21  \n@@ -6166,19 +6166,19 @@\n 06  O   \n-F  \n+ASP\n  A  21  \n@@ -9487,19 +9487,19 @@\n 62  N   \n-Q  \n+GLU\n  A  32  \n@@ -9572,11 +9572,11 @@\n CA  \n-H  \n+GLU\n  A  \n@@ -9653,11 +9653,11 @@\n C   \n-R  \n+GLU\n  A  \n@@ -9734,11 +9734,11 @@\n O   \n-W  \n+GLU\n  A  \n@@ -12399,27 +12399,27 @@\n    570  N   \n-G  \n+LYS\n  A  41      \n@@ -12484,19 +12484,19 @@\n 71  CA  \n-C  \n+LYS\n  A  41  \n@@ -12565,19 +12565,19 @@\n 72  C   \n-C  \n+LYS\n  A  41  \n@@ -12650,11 +12650,11 @@\n O   \n-P  \n+LYS\n  A  \n@@ -15323,11 +15323,11 @@\n N   \n-Y  \n+CYS\n  A  \n@@ -15404,11 +15404,11 @@\n CA  \n-Q  \n+CYS\n  A  \n@@ -15481,19 +15481,19 @@\n 49  C   \n-G  \n+CYS\n  A  48  \n@@ -15558,27 +15558,27 @@\n    750  O   \n-K  \n+CYS\n  A  48      \n@@ -16292,18 +16292,18 @@\n 5  N   G\n-  \n+LY\n  A  51  \n@@ -16372,19 +16372,19 @@\n 86  CA  \n-N  \n+GLY\n  A  51  \n@@ -16457,11 +16457,11 @@\n C   \n-F  \n+GLY\n  A  \n@@ -16538,11 +16538,11 @@\n O   \n-K  \n+GLY\n  A  \n",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "OPEN_PROTEIN",
+      "operationDetails": {
+        "file_name": "2wur_backbone"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "DESIGN_PROTEIN",
+      "operationDetails": {
+        "num_seq_per_target": 5,
+        "sampling_temp": 0.1,
+        "interface_cutoff": 10.0,
+        "model": "ProteinMPNN"
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXPORT_PROTEIN",
+      "operationDetails": {
+        "include_metadata": true
+      },
+      "change": "",
+      "timestamp": "01/16/2026, 01:45:55",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    }
+  ]
+}

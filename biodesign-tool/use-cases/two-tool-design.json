@@ -1,0 +1,26 @@
+{
+  "name": "Two-tool design",
+  "description": "Importing design and metadata from another tool and making more edits to it.",
+  "operations": [
+    {
+      "operation_command": "IMPORT",
+      "operation_arguments": {
+        "design_path": "exported/other_tool_design.gb",
+        "metadata_path": "exported/metadata_other_tool_design.txt"
+      }
+    },
+    {
+      "operation_command": "INSERT",
+      "operation_arguments": {
+        "insert_sequence": "aaaaa",
+        "insert_position": 0
+      }
+    },
+    {
+      "operation_command": "EXPORT",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

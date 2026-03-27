@@ -1,0 +1,24 @@
+{
+  "name": "Protein design - Part 1",
+  "description": "Extract the backbone.",
+  "operations": [
+    {
+      "operation_command": "OPEN_PROTEIN",
+      "operation_arguments": {
+        "file_name": "2wur"
+      }
+    },
+    {
+      "operation_command": "EXTRACT_BACKBONE",
+      "operation_arguments": {
+        "output_file_name": "2wur_backbone"
+      }
+    },
+    {
+      "operation_command": "EXPORT_PROTEIN",
+      "operation_arguments": {
+        "include_metadata": "True"
+      }
+    }
+  ]
+}

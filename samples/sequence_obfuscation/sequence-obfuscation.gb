@@ -1,0 +1,18 @@
+LOCUS       sequence-obfuscation      45 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    1..15
+                     /label="Part 0"
+     misc_feature    16..30
+                     /label="Part 1"
+     misc_feature    31..45
+                     /label="Part 2"
+ORIGIN
+        1 atgccggatc cgttcaacga attcggatag tgaagcttaa tttaa
+//

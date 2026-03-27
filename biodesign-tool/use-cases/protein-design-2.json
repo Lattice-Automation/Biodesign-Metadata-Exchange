@@ -1,0 +1,21 @@
+{
+  "name": "Protein design - Part 2",
+  "description": "Redesign the interface.",
+  "operations": [
+    {
+      "operation_command": "OPEN_PROTEIN",
+      "operation_arguments": {
+        "file_name": "2wur_backbone"
+      }
+    },
+    {
+      "operation_command": "REDESIGN_INTERFACE",
+      "operation_arguments": {
+        "model": "RFdiffusion",
+        "mode": "inpaint",
+        "num_designs": 5,
+        "temperature": 0.1
+      }
+    }
+  ]
+}

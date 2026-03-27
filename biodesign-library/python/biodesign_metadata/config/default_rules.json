@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {"id":"nucleotides-added-threshold","name":"Highlight when nucleotides added in a single op exceed this threshold","enabled":false,"type":"nucleotides_added","threshold":10,"autoScreen":false},
+    {"id":"timestamp-gap-threshold","name":"Highlight when time gap between consecutive operations exceeds threshold","enabled":false,"type":"timestamp_gap","threshold":30,"autoScreen":false},
+    {"id":"timestamp-gap-below-threshold","name":"Highlight when time gap between consecutive operations is below threshold","enabled":false,"type":"timestamp_gap_below","threshold":60,"autoScreen":false},
+    {"id":"suspected-ai-operations","name":"Highlight suspected AI operations","enabled":false,"type":"suspected_ai_operations","autoScreen":false},
+    {"id":"operation-type-filter","name":"Highlight all operations of selected types","enabled":false,"type":"operation_type","selectedOperationTypes":[],"autoScreen":false}
+  ],
+  "finalRecommendation": {
+    "useFlaggedPercentage": false,
+    "flaggedPercentageThreshold": 50,
+    "useFailedScreeningCheck": false,
+    "failedScreeningKeywords": ["controlled", "denied", "hazardous"]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "26da574f-3af1-4c85-b76e-be17b353f9cc",
+  "parentMetadataId": "19c075a4-c34e-4c9e-9dea-ab0139f5f637",
+  "designName": "sequence-obfuscation_1",
+  "designChecksum": "56e582d1fca2509cc3ab43487cbe5cb96e4c1801fd8a005098451286264fa1ef",
+  "author": "John Smith",
+  "description": "",
+  "lastUpdated": "01/23/2026, 12:49:53",
+  "changelog": [
+    {
+      "operationCode": "CREATE",
+      "operationDetails": {
+        "file_name": "sequence-obfuscation_1",
+        "source": "tool_split_operation"
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXPORT",
+      "operationDetails": {
+        "include_metadata": true
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "OPEN",
+      "operationDetails": {
+        "file_name": "sequence-obfuscation_1"
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "CODON_OPTIMIZATION",
+      "operationDetails": {
+        "organism": "human",
+        "start_index": 0,
+        "end_index": 15
+      },
+      "change": "@@ -256,22 +256,22 @@\n 1 aa\n-t\n+c\n gaatt\n-tg ggtaa\n+cg gatag\n %0A//%0A\n",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "COPY",
+      "operationDetails": {
+        "copy_start_index": 0,
+        "copy_end_index": 15
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    },
+    {
+      "operationCode": "EXPORT",
+      "operationDetails": {
+        "include_metadata": true
+      },
+      "change": "",
+      "timestamp": "01/23/2026, 12:49:53",
+      "tool": "BioDesign tool",
+      "comments": [],
+      "status": ""
+    }
+  ]
+}

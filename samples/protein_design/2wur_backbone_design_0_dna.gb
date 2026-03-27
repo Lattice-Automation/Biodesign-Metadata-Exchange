@@ -1,0 +1,23 @@
+LOCUS       2wur_backbone_design_0_dna 687 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 atgaaaggtg ttgaactttt ttatggtgtt gttcctattc ttgttgaact tgatggtgat
+       61 gttaatgaac ataaattttc tgtttctggt caaggtgaag gtgatgctac ttatggtaaa
+      121 cttactcttc cttttatttg tactactcat gttctttttg ttccttggcc tcctgaagtt
+      181 actcctcttg ttcaatgttt ttctcaatat cctgatcttt ttaaacgtca tgattttttt
+      241 aaatcttcta tgactgaagg ttatgttggt gaacgtactg atttttttaa agataatggt
+      301 aataataaac ttcgtgctga agtttctttt gaaggtgata ctcttgttaa tcgtattgaa
+      361 cttcttggtc aagattttaa agaaaatggt aatcgtcttg gtcataaact tgaatataat
+      421 gctaatcctc ataattgtaa aattatggct gatcgttata aaaatgctat taaagttaat
+      481 tttaaaactc gtcataatat tgaagatggt tctgttcaac ttgctgatca ttatcaaggt
+      541 aatactcaaa atggtcatgg tcctgttctt cttcctgatc aacattatct ttctgatcaa
+      601 tctgctcttt ctaaagatcc taataatggt cgtgatcatt gtgttcttct tgaatttgtt
+      661 actgctgctg atcaaactca tcaataa
+//
